@@ -1,0 +1,7 @@
+Dockerfile
+.dockerignore
+npm-debug.log
+# Ignored built files because it is not needed in dev environment
+dist
+# Ignored because it will be created there!
+node_modules
