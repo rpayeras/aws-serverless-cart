@@ -52,16 +52,19 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 Build
 
 ```bash
-docker build -t nest-server .
+docker build -t nest-server:1.0 .
 ```
 
 ```bash
-docker create -i -t -p 4000:4000 --name nest-server nest-server:latest
+docker create -i -t --name nest-server nest-server:1.0
 ```
 
 ```bash
-docker start
+docker start nest-server
 ```
+
+eb init
+eb create --cname rpayeras-cart-api-develop
 
 # FIX: Error due to dependency updates
 
