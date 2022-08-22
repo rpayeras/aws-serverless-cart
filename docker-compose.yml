@@ -1,0 +1,5 @@
+services:
+  nest-server:
+    build: .
+    ports:
+      - 80:4000
