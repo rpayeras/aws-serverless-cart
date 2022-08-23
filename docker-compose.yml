@@ -2,4 +2,4 @@ services:
   nest-server:
     build: .
     ports:
-      - 80:4000
+      - 443:4000

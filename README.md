@@ -51,3 +51,9 @@ eb init
 eb create --cname nestjs-aws
 eb deploy
 ```
+
+## Force to use local repositories
+
+```bash
+eb codesource local
+```
