@@ -6,7 +6,7 @@
   "Ports": [
     {
       "ContainerPort": 4000,
-      "HostPort": 443
+      "HostPort": 80
     }
   ]
 }
